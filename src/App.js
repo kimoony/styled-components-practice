@@ -1,10 +1,12 @@
-
+import FirstStyled from 'components/FirstStyled';
+import Extending from 'components/Extending';
 
 function App() {
   return (
-    <div className="App">
-      styled-components practice!
-    </div>
+    <>
+      <FirstStyled /><br />
+      <Extending />
+    </>
   );
 }
 
