@@ -1,10 +1,8 @@
-
+import FirstStyled from 'components/FirstStyled';
 
 function App() {
   return (
-    <div className="App">
-      styled-components practice!
-    </div>
+    <FirstStyled />
   );
 }
 
